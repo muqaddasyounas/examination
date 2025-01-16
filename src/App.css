@@ -1,0 +1,90 @@
+.form-container {
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+header h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  background-color: #004080;
+  padding: 50px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.form-section h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: left; /* Aligns labels and inputs vertically */
+  text-align: left;
+  margin-bottom: 10px; /* Adds spacing between form groups */
+}
+
+label {
+  flex: 1; /* Ensures labels take up equal space */
+  margin-right: 10px; /* Adds space between label and input */
+  text-align: right; /* Aligns label text to the right */
+}
+
+input {
+  flex: 2; /* Ensures input fields take up more space than labels */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+label {
+  flex: 1; /* Ensures labels take up equal space */
+  margin-right: 10px; /* Adds space between label and input */
+  text-align: left; /* Aligns label text to the right */
+}
+
+input {
+  flex: 2; /* Ensures input fields take up more space than labels */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
